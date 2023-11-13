@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class Botones {
-
     public int puntos;
     public int contadorClicker;
     public int contadorClickerSupremo;
@@ -29,7 +28,7 @@ public class Botones {
 
     public void BotonClicker1(JFrame frame) {
         JButton clicker1 = new JButton("Comprar 1 Clicker");
-        clicker1.setBounds(180, 350, 145, 40);
+        clicker1.setBounds(180, 350, 190, 40);
         frame.add(clicker1);
 
         clicker1.addActionListener(new ActionListener() {
@@ -49,7 +48,7 @@ public class Botones {
 
     public void BotonClicker2(JFrame frame) {
         JButton clicker2 = new JButton("Comprar 1 ClickerSupremo");
-        clicker2.setBounds(330, 350, 145, 40);
+        clicker2.setBounds(386, 350, 190, 40);
         frame.add(clicker2);
 
 
